@@ -1,0 +1,3 @@
+/home/shashank/Documents/meshing/build/CMakeFiles/edit_cache.dir
+/home/shashank/Documents/meshing/build/CMakeFiles/rebuild_cache.dir
+/home/shashank/Documents/meshing/build/CMakeFiles/main.dir
