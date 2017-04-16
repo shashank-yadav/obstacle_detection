@@ -1,5 +1,6 @@
 #include "unionFind.h"
 #include "create_rect.h"
+#include "plane.h"
 
 using namespace std;
 using namespace cv;

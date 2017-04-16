@@ -33,7 +33,7 @@ Rectangle get_orientation(std::vector<Point2i> pts , Point2d &center)
     rect.center = center;
 
     for (int i = 0; i < sz; ++i){
-    	Point2d p = (Point2d)pts[i] - center;
+    	Point2d p = Point2d(pts[i].x , pts[i].y) - center;
     	
     	double p_axis1 = p.ddot(eigen_vecs[0]);
     	double p_axis2 = p.ddot(eigen_vecs[1]);
