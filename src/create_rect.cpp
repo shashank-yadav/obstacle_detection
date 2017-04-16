@@ -72,8 +72,8 @@ std::vector<Rectangle> create_rect(Mat &image , const int n_clusters)
 	for (int i = 0; i < grayImage.rows; ++i){
 		for (int j = 0; j < grayImage.cols; ++j){
 			if (grayImage.at<uchar>(i,j) > 0){
-				M.at<float>(iter,0) = i;
-				M.at<float>(iter,1) = j;
+				M.at<float>(iter,0) = j;
+				M.at<float>(iter,1) = i;
 				iter ++;				
 			}
 		}
